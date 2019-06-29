@@ -1,0 +1,13 @@
+<suite name="groups">
+	<groups>
+		<run>
+			<include name ="Smoke"/>
+					<include name ="Regression"/>
+		</run>
+	</groups>
+	<test name="groupTest">
+		<classes>
+			<class name="com.class3.GroupsExample" />
+		</classes>
+	</test>
+</suite>

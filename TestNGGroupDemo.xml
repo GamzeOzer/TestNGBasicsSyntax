@@ -1,0 +1,17 @@
+<suite name="TestNGGroupDemo suite">
+	<test name="TestNGGroupDemo test">
+		<groups>
+			<define name="Regression1">
+				<include name="regression"></include>
+				<include name="smoke"></include>
+			</define>
+			<run>
+				<include name="Regression1"></include>
+			</run>
+		</groups>
+
+		<classes>
+			<class name="com.class03.TestNGGroupDemo" />
+		</classes>
+	</test>
+</suite>

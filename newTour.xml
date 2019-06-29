@@ -1,0 +1,12 @@
+<suite name="tourSuite">
+	<groups>
+		<run>
+			<include name="Smoke" />
+		</run>
+	</groups>
+	<test name="tourTest">
+		<classes>
+			<class name="com.class3.NewtoursExample" />
+		</classes>
+	</test>
+</suite>
